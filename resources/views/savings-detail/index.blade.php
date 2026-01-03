@@ -270,7 +270,7 @@
             </div>
             <div class="row">
                 <!-- ./col -->
-                <div class="col-lg-3 col-6">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <!-- small box -->
                     <div class="small-box bg-success">
                         <div class="inner">
@@ -281,7 +281,7 @@
                     </div>
                 </div>
                 <!-- ./col -->
-                <div class="col-lg-3 col-6">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <!-- small box -->
                     <div class="small-box bg-warning">
                         <div class="inner">
@@ -292,7 +292,7 @@
                     </div>
                 </div>
                 <!-- ./col -->
-                <div class="col-lg-3 col-6">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <!-- small box -->
                     <div class="small-box bg-danger">
                         <div class="inner">
@@ -303,7 +303,7 @@
                     </div>
                 </div>
                 <!-- ./col -->
-                <div class="col-lg-3 col-6">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <!-- small box -->
                     <div class="d-flex justify-content-between small-box bg-info">
                         <div class="inner">

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Models\Saving;
 use App\Models\SavingDetail;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
@@ -47,7 +48,8 @@ Route::get('/evidence/{id}', function ($id) {
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', function () {
-        return view('admin');
+        $qtySaving = Saving::sum('qty') ?? 0;
+        return view('admin', compact('qtySaving'));
     })->name('dashboard');
     Route::resource('users', App\Http\Controllers\UserController::class);
     Route::resource('savings', App\Http\Controllers\SavingController::class);
